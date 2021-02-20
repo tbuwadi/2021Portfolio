@@ -94,7 +94,7 @@ module.exports = {
     ],
     button: {
       name: "Resume",
-      url: "/TalaBuwadiResume.pdf",
+      url: "https://bit.ly/3k6CG28",
     },
   },
   footerLinks: [

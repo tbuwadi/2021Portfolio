@@ -65,7 +65,7 @@ const Navbar = () => {
           </Link>
         )
       })}
-      <Link className="cta-btn" to={button.url}>
+      <Link className="cta-btn" to={button.url} target="_blank">
         {button.name}
       </Link>
     </StyledNav>

@@ -41,23 +41,23 @@ const StyledContentWrapper = styled(ContentWrapper)`
     }
     .image-content {
       width: 100%;
-      max-width: 18rem;
-      margin-top: 4rem;
+      max-width: 20rem;
+      margin-top: 5rem;
       margin-left: 0;
       @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
         margin-left: 2rem;
       }
     }
     .about-author {
-      border-radius: ${({ theme }) => theme.borderRadius};
+      /* border-radius: ${({ theme }) => theme.borderRadius};
       box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.16);
-      filter: grayscale(20%) contrast(1) brightness(90%);
-      transition: all 0.3s ease-out;
+      filter: grayscale(20%) contrast(1) brightness(90%); */
+      /* transition: all 0.3s ease-out;
       &:hover {
         filter: grayscale(50%) contrast(1) brightness(90%);
         transform: translate3d(0px, -0.125rem, 0px);
         box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.32);
-      }
+      } */
     }
   }
 `
