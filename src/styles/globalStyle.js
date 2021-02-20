@@ -56,7 +56,7 @@ const GlobalStyle = createGlobalStyle`
 
     h1 {
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1.50rem;
         line-height: 2.375rem;
         color: ${({ theme }) => theme.colors.primary};
         @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
@@ -67,7 +67,7 @@ const GlobalStyle = createGlobalStyle`
 
     h2 {
         font-weight: 700;
-        font-size: 1.25rem;
+        font-size: 1rem;
         line-height: 1.5rem;
         color: ${({ theme }) => theme.colors.primary};
         @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
