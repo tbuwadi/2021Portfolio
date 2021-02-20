@@ -3,12 +3,11 @@ module.exports = {
   author: "@talabuwadi",
   siteTitle: "Tala Buwadi Portfolio",
   siteShortTitle: "tb.", // Used as logo text in header, footer, and splash screen
-  siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+  siteDescription: "Tala Buwadi Portfolio",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Tala Buwadi", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
 
   // -- THEME SETTINGS -----
   colors: {
