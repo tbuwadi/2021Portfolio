@@ -94,17 +94,17 @@ module.exports = {
     ],
     button: {
       name: "Resume",
-      url: "/#articles",
+      url: "/TalaBuwadiResume.pdf",
     },
   },
   footerLinks: [
     {
-      name: "Privacy",
-      url: "/privacy",
+      // name: "Privacy",
+      // url: "/privacy",
     },
     {
-      name: "Imprint",
-      url: "/imprint",
+      // name: "Imprint",
+      // url: "/imprint",
     },
   ],
 }
