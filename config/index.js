@@ -1,8 +1,8 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  author: "@talabuwadi",
+  siteTitle: "Tala Buwadi Portfolio",
+  siteShortTitle: "tb.", // Used as logo text in header, footer, and splash screen
   siteDescription:
     "A modern one-page portfolio with a clean yet expressive design.",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
@@ -14,8 +14,8 @@ module.exports = {
   colors: {
     lightTheme: {
       primary: "#000000",
-      secondary: "#FFF4D9",
-      tertiary: "#F2F2F2",
+      secondary: "#f9e3f8",
+      tertiary: "#f9e3f8",
       text: "#000000",
       subtext: "#555555",
       background: "#FFFFFF",
@@ -41,14 +41,14 @@ module.exports = {
     primary: "Roboto, Arial, sans-serif",
   },
 
-  //-- ARTICLES SECTION SETTINGS -----
-  // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
-  // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
-  mediumRssFeed:
-    "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
-  // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
+  // //-- ARTICLES SECTION SETTINGS -----
+  // // You can create your own Medium feed with this rss to json converter: https://rss2json.com/
+  // // To access your Medium RSS feed, just replace this url with your username: https://medium.com/feed/@{yourname}
+  // mediumRssFeed:
+  //   "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40konstantinmuenster",
+  // // rssFeed: "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.theguardian.com%2Finternational%2Frss",
 
-  shownArticles: 3,
+  // shownArticles: 3,
 
   //-- SOCIAL MEDIA SETTINGS -----
   // There are icons available for the following platforms:
@@ -56,20 +56,19 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
-    },
-    {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      url: "https://www.linkedin.com/in/tbuwadi/",
     },
     {
       name: "Github",
-      url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+      url: "https://github.com/tbuwadi",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Devpost",
+      url: "https://devpost.com/tbuwadi",
+    },
+    {
+      name: "TikTok",
+      url: "https://www.tiktok.com/@tala.exe?",
     },
   ],
 
@@ -77,31 +76,35 @@ module.exports = {
   navLinks: {
     menu: [
       {
-        name: "Articles",
-        url: "/#articles",
-      },
-      {
         name: "About Me",
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Skills",
+        url: "/#interests",
+      },
+      {
+        name: "Projects",
         url: "/#projects",
+      },
+      {
+        name: "Contact",
+        url: "/#contact",
       },
     ],
     button: {
-      name: "Contact",
-      url: "/#contact",
+      name: "Resume",
+      url: "TalaBuwadiResume.pdf",
     },
   },
   footerLinks: [
     {
-      name: "Privacy",
-      url: "/privacy",
+      // name: "Privacy",
+      // url: "/privacy",
     },
     {
-      name: "Imprint",
-      url: "/imprint",
+      // name: "Resume",
+      // url: "/imprint",
     },
   ],
 }
