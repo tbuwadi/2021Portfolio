@@ -67,7 +67,11 @@ module.exports = {
     },
     {
       name: "TikTok",
-      url: "https://www.tiktok.com/@tala.exe?",
+      url: "https://www.tiktok.com/@tala.exe",
+    },
+    {
+      name: "Resume",
+      url: "https://bit.ly/3k6CG28",
     },
   ],
 
